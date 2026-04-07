@@ -7,9 +7,7 @@ Your work history, permanently stored on the Stellar blockchain and cryptographi
 | | |
 |---|---|
 | **Frontend** | `https://onchaincv.vercel.app` |
-| **GitHub** | `https://github.com/YOUR_USERNAME/onchaincv` |
-| **Contract** | `https://stellar.expert/explorer/testnet/contract/CONTRACT_ID` |
-| **Proof TX** | `https://stellar.expert/explorer/testnet/tx/TX_HASH` |
+| **Contract** | `https://stellar.expert/explorer/testnet/contract/CA6YR7OIGN3ZFQPNKSCAGRDXJEPNXCLI5QOSNYJ7YL3STYQMPZSZKUCF` |
 
 ## How It Works
 
