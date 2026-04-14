@@ -7,7 +7,7 @@ Your work history, permanently stored on the Stellar blockchain and cryptographi
 | | |
 |---|---|
 | **Frontend** | `https://onchaincv.vercel.app` |
-| **Contract** | `https://stellar.expert/explorer/testnet/contract/CA6YR7OIGN3ZFQPNKSCAGRDXJEPNXCLI5QOSNYJ7YL3STYQMPZSZKUCF` |
+| **Contract** | `https://stellar.expert/explorer/testnet/contract/CDAYPMP5AEWTKZGUKWA3DGT4VYK4OL5XCFAWRLNGAB767QDHDMTB46VW` |
 
 ## How It Works
 
@@ -17,6 +17,16 @@ Your work history, permanently stored on the Stellar blockchain and cryptographi
 4. Each save is a signed Soroban transaction
 5. Share your Stellar address — anyone can view your CV
 
+## Why This Project Matters
+
+This project turns a familiar real-world workflow into a verifiable on-chain primitive on Stellar: transparent state transitions, user-authenticated actions, and deterministic outcomes.
+
+## Architecture
+
+- **Smart Contract Layer**: Soroban contract enforces business rules, authorization, and state transitions.
+- **Client Layer**: React + Vite frontend handles wallet UX, transaction composition, and real-time status views.
+- **Wallet/Auth Layer**: Freighter signs every state-changing action so operations are attributable and non-repudiable.
+- **Infra Layer**: Stellar Testnet + Soroban RPC for execution; Vercel for frontend hosting.
 ## Contract Functions
 
 ```rust
@@ -44,3 +54,5 @@ total_profiles() -> u32
 chmod +x scripts/deploy.sh && ./scripts/deploy.sh
 cd frontend && npm install && npm run dev
 ```
+
+
